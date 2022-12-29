@@ -6,7 +6,7 @@ import { sampleDto } from './sampledto.dto'
 export class SampleController {
     @Get('/get')
     getList(@Req() request: Request): string {
-        return 'sample get code'
+        return 'sample get codes'
     }
 
     @Post('/post')
